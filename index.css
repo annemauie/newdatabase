@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.side-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logout-btn {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.htext h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.htext p {
+    font-size: 18px;
+    color: #666;
+}
+
+.searchbar {
+    margin-top: 20px;
+}
+
+.search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pfp img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.status {
+    text-align: center;
+}
+
+.status h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.status label {
+    font-size: 20px;
+    color: #666;
+}
+
+.progress {
+    width: 100%;
+}
+
+.best {
+    margin-top: 20px;
+}
+
+.best h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.bestitem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bestitem img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.bestitem h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.REC {
+    margin-top: 20px;
+}
+
+.REC h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.REC .bestitem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.REC .bestitem img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.REC .bestitem h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
